@@ -21,8 +21,7 @@ public class Enfermeros extends Persona{
 
     @Override
     public String toString() {
-        return "Enfermero: "  + getNombres() + " " + getApellidos()+ " " 
-        + getNumeroDocumento() + " " + getProcedimiento() ;
+        return "Enfermero: "  + getNombres() + " " + getApellidos()+ " "  ;
     }
 
 

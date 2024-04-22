@@ -39,6 +39,11 @@ public class CitaEnfermero extends Cita implements IAgendamiento {
     public void reagendarCita(LocalDateTime fechaCita) {
         
     }
+    @Override
+    public String toString() {
+        return "CitaEnfermero: " + "" + getFecha() + ", Paciente: " + getPaciente() + ", Procedimiento: "
+                + getProcedimiento() + ", " + getEnfermeros() + "";
+    }
 
         
 

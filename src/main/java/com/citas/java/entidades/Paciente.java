@@ -110,7 +110,7 @@ public class Paciente {
 
     @Override
     public String toString() {
-        return "Paciente: " + " " + getNombres() + ", Apellidos: "  + " " + getApellidos() + ", Tipo_Sangre: "
+        return getNombres() + ", Apellidos: "  + " " + getApellidos() + ", Tipo_Sangre: "
         + " "     + getTipoSangre() + ", FactorRH: " + " " + getFactorRH();
     }
 

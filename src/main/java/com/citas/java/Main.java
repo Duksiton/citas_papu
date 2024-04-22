@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.time.Month;
 
 import com.citas.java.entidades.Cita;
+import com.citas.java.entidades.CitaEnfermero;
 import com.citas.java.entidades.CitaMedico;
 import com.citas.java.entidades.Enfermeros;
 import com.citas.java.entidades.Medico;
@@ -57,5 +58,9 @@ public class Main {
         CitaMedico cm2 = new CitaMedico(LocalDateTime.of(2024, Month.OCTOBER, 13,13,30,00), p2, "Escopolamina", m2, null);
         System.out.println(cm2.toString());
         System.out.println("Estado de la cita: " + " " + cm2.getEstadoCita());
+
+        CitaEnfermero ce1 = new CitaEnfermero(LocalDateTime.of(2024, Month.MAY, 16,15,00,00), p3, ProcedimientosEnfermeria.VACUNACION, e);
+        System.out.println(ce1.toString());
+       
     }
 }   
