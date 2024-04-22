@@ -61,6 +61,9 @@ public class Main {
 
         CitaEnfermero ce1 = new CitaEnfermero(LocalDateTime.of(2024, Month.MAY, 16,15,00,00), p3, ProcedimientosEnfermeria.VACUNACION, e);
         System.out.println(ce1.toString());
+
+        CitaEnfermero ce2 = new CitaEnfermero(LocalDateTime.of(2024, Month.NOVEMBER, 17,19,00,00), p4, ProcedimientosEnfermeria.LAVADO_DE_OIDOS, e2);
+        System.out.println(ce2.toString());
        
     }
 }   
