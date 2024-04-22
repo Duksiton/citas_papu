@@ -53,7 +53,10 @@ public class Main {
 
         CitaMedico cm1  = new CitaMedico(LocalDateTime.of(2024, Month.JANUARY, 3, 11,30,00), p, "Gripe", m, null);
         System.out.println(cm1.toString());
+        cm1.cancelarCita();
         System.out.println("Estado de la cita: " + " " + cm1.getEstadoCita() );
+
+        
 
         CitaMedico cm2 = new CitaMedico(LocalDateTime.of(2024, Month.OCTOBER, 13,13,30,00), p2, "Escopolamina", m2, null);
         System.out.println(cm2.toString());

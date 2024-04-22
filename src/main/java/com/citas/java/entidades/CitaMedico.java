@@ -65,7 +65,7 @@ public class CitaMedico extends Cita implements IAgendamiento{
     @Override
     public String toString() {
         return "Fecha: " + " " + getFecha()  + " " + getPaciente() + ", Motivo: "
-        + " "  + getMotivo()  + ", " + getMedico() + ", Estado_Cita: " + " " + getEstadoCita() + ".";
+        + " "  + getMotivo()  + ", " + getMedico()  + ".";
     }
 
 }
